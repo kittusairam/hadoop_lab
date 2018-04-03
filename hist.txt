@@ -1,0 +1,1000 @@
+   41  tar -zxvf ns-allinone-2.35.tar.gz
+   42  sudo cp ns-allinone-2.35 /opt/
+   43  cp ns-allinone-2.35 /opt/
+   44  sudo mv ns-allinone-2.35 /opt/
+   45  sudo apt-get update
+   46  sudo apt-get dist-upgrade
+   47  sudo apt-get update
+   48  sudo apt-get install g++
+   49  sudo apt-get install build-essential autoconf automake
+   50  sudo apt-get install tcl8.5-dev tk8.5-dev
+   51  sudo apt-get install perl xgraph libxt-dev libx11-dev libxmu-dev
+   52  sudo gedit ~/.bashrc
+   53  source ~/.bashrc
+   54  ns
+   55  cd ..
+   56  cd /opt/
+   57  cd ns-allinone-2.35/
+   58  cd ns-2.35/
+   59  ls
+   60  gedit linkstate/ls.sh
+   61  gedit linkstate/ls.h
+   62  cd linkstate/
+   63  ls
+   64  cd ..
+   65  ./install 
+   66  ns
+   67  sudo apt-get install openssh-server -y
+   68  ssh
+   69  sudo service ssh restart
+   70  scp
+   71  suo apt-get install openjdk-8-jdk
+   72  sudo apt-get install openjdk-8-jdk
+   73  java -version
+   74  update-alternatives --config java
+   75  gedit /etc/environment 
+   76  sudo gedit /etc/environment 
+   77  source /etc/environment 
+   78  JAVA_HOME
+   79  echo $JAVA_HOME
+   80  sudo apt-get install ssh
+   81  ssh-keygen -t rsa -p ""
+   82  ssh-keygen -t rsa -P ""
+   83  cat /home/krish/.ssh/id_rsa >> /home/krish/.ssh/authorized_keys
+   84  cd /home/krish/.ssh/
+   85  ls
+   86  cd ..
+   87  sudo
+   88  su
+   89  ssh localhost
+   90  cd Downloads/
+   91  ls
+   92  tar -xvzf hadoop-2.7.5.tar.gz 
+   93  sudo mv hadoop-2.7.5 /opt/
+   94  cd ..
+   95  cd /opt/
+   96  ls
+   97  sudo gedit ~/.bashrc
+   98  cd ..
+   99  sudo gedit ~/.bashrc
+  100  cd krish
+  101  ls
+  102  cd home/krish/
+  103  sudo gedit ~/.bashrc
+  104  java HOME
+  105  java
+  106  clear
+  107  echo $HOME
+  108  echo $JAVA_HOME
+  109  source /etc/environment 
+  110  echo $JAVA_HOME
+  111  source ~/.bashrc
+  112  sudo gedit ~/.bashrc
+  113  source ~/.bashrc
+  114  sudo source ~/.bashrc
+  115  source ~/.bashrc
+  116  sudo gedit ~/.bashrc
+  117  source ~/.bashrc
+  118  cd /opt/hadoop-2.7.5/
+  119  cd etc/
+  120  cd hadoop/
+  121  geit hadoop-env.sh 
+  122  sudo geit hadoop-env.sh 
+  123  sudo gedit hadoop-env.sh 
+  124  cd ..
+  125  cd hadoop-2.7.5/
+  126  mkdir hadoop_store
+  127  cd hadoop_store/
+  128  mkdir hdfs
+  129  cd hdfs/
+  130  mkdir namenode
+  131  mkdir datanode
+  132  cd
+  133  cd /opt/hadoop-2.7.5/etc/hadoop/
+  134  gedit hdfs-site.xml 
+  135  cd ..
+  136  mkdir tmp
+  137  cd etc/hadoop/
+  138  gedit core-site.xml 
+  139  cp mapred-site.xml.template mapred-site.xml
+  140  gedit mapred-site.xml
+  141  cd
+  142  hadoop namenode -format
+  143  /opt/hadoop-2.7.5/sbin/
+  144  /opt/hadoop-2.7.5/sbin/start-all.sh 
+  145  jvp
+  146  jnp
+  147  jmp
+  148  /opt/hadoop-2.7.5/sbin/start-all.sh 
+  149  cd Desktop/
+  150  g++ sliding_w_stop_wait_sender.cpp -o sender.out
+  151  ./sender.out 
+  152  g++ sliding_w_stop_wait_sender.cpp -o sender.out
+  153  ./sender.out 
+  154  g++ sliding_w_stop_wait_receiver.cpp -o recever.out
+  155  ./sender.out 
+  156  cd Desktop/
+  157  ./recever.out 
+  158  sudo apt-get install subline
+  159  sudo add-apt-repository ppa:webupd8team/sublime-text-2
+  160  sudo apt-get update
+  161  sudo apt-get install sublime-text
+  162  cd Downloads/
+  163  ls
+  164  tar -xvzf android-studio-ide-171.4443003-linux.zip
+  165  ls
+  166  mv android-studio /opt/
+  167  sudo mv android-studio /opt/
+  168  cd
+  169  cd /opt/
+  170  cd android-studio/
+  171  cd ..
+  172  chmod 777 -R android-studio/
+  173  cd android-studio/
+  174  ls
+  175  ls-l
+  176  ls-i
+  177  ls
+  178  cd bin/
+  179  ls
+  180  studio.sh
+  181  /.studio.sh
+  182  /studio.sh
+  183  studio.sh
+  184  chmod 777 studio.sh 
+  185  studio.sh
+  186  ./studio.sh 
+  187  echo $PATH
+  188  /opt/android-studio/bin/studio.sh 
+  189  sudo gedit ~/.bashrc
+  190  source ~/.bashrc
+  191  pwd
+  192  ./studio.sh
+  193  echo $ANDROID
+  194  ~/studio.sh
+  195  ~/opt/studio.sh
+  196  sudo ~/studio.sh
+  197  sudo /opt/android-studio/bin/studio.sh 
+  198  sudo gedit~/.profile
+  199  echo $ANDROID 
+  200  cd Desktop/
+  201  ls
+  202  chmod 777 android.desktop 
+  203  cd Downloads/
+  204  ls
+  205  tar -xvzf pycharm-community-2017.3.2.tar.gz 
+  206  ls
+  207  mv pycharm-community-2017.3.2 /opt/
+  208  sudo mv pycharm-community-2017.3.2 /opt/
+  209  /opt/
+  210  cd /opt/pycharm-community-2017.3.2/
+  211  ls
+  212  cd bin/
+  213  ls
+  214  chmod 777 pycharm.sh 
+  215  ./pycharm.sh 
+  216  cd /opt/pycharm-community-2017.3.2/bin/
+  217  ./pycharm.sh 
+  218  cd
+  219  cd Desktop/
+  220  chmod 777 PyCharm.desktop 
+  221  cd Desktop/
+  222  g++ sliding_go_back.cpp -o sender.out
+  223  g++ sliding_go_back_receiver.cpp -o recever.out
+  224  ./recever.out 
+  225  cd Desktop/
+  226  ./sender.out 
+  227  cd Desktop/
+  228  ls
+  229  ns krish.tlc 
+  230  ns krish.tcl 
+  231  ns
+  232  man ns
+  233  help ns
+  234  man -k ns
+  235  ns krish.tcl 
+  236  ns krish.tlc 
+  237  ns krish.tcl 
+  238  cd CN/
+  239  ns bus.tcl 
+  240  ns ring.tcl 
+  241  ns star.tcl 
+  242  ns mesh.tcl 
+  243  ns tree.tcl 
+  244  cd Desktop/
+  245  g++ selective_repeat_sender.cpp -o sender.out 
+  246  ./sender.out 
+  247  g++ selective_repeat_sender.cpp -o sender.out 
+  248  ./sender.out 
+  249  g++ selective_repeat_receiver.cpp -o recever.out 
+  250  ./recever.out 
+  251  g++ selective_repeat_receiver.cpp -o recever.out 
+  252  ./recever.out 
+  253  g++ selective_repeat_receiver.cpp -o recever.out 
+  254  ./recever.out 
+  255  g++ selective_repeat_receiver.cpp -o recever.out 
+  256  ./recever.out 
+  257  g++ selective_repeat_receiver.cpp -o recever.out 
+  258  ./recever.out 
+  259  cd ..
+  260  cd 
+  261  ls
+  262  cd Desktop/
+  263  ./sender.out 
+  264  cd Desktop/sliding_window/
+  265  g++ selective_repeat_receiver.cpp -o recever.out 
+  266  ./recever.out 
+  267  cd Desktop/
+  268  g++ selective_repeat_receiver.cpp -o recever.out 
+  269  ls
+  270  cd sliding_window/
+  271  g++ selective_repeat_sender.cpp -o sender.out 
+  272  ./sender.out 
+  273  sudo gedit ./bashrc
+  274  gedit ./bashrc
+  275  gedit ~/.bashrc
+  276  pwd
+  277  sudo gedit ~/.bashrc
+  278  shoudown
+  279  shoutdown
+  280  poweroff
+  281  cd Desktop/sliding_window/
+  282  ./r.out
+  283  cd Desktop/
+  284  ls
+  285  cd sliding_window/
+  286  ls
+  287  ./receiver.out 
+  288  ls
+  289  g++ sliding_w_stop_wait_receiver.cpp -o r.out
+  290  g++ sliding_w_stop_wait_sender.cpp -0 s.out
+  291  g++ sliding_w_stop_wait_sender.cpp -o s.out
+  292  ./s.out
+  293  ls
+  294  cd Desktop/
+  295  ls
+  296  cd sliding_window/
+  297  ls
+  298  g++ sliding_go_back.cpp -o sender.out
+  299  g++ sliding_go_back.cpp -o sender.out
+  300  g++ sliding_go_back_receiver.cpp -o receiver.out
+  301  ./sender.out 
+  302  ifconfig
+  303  netstart -an |more
+  304  netstat -an |more
+  305  sudo apt-get install upadte
+  306  sudo apt-get install dconf-tools
+  307  sudo dconf-editor
+  308  sudo gsettings set org.gnome.Vino require-encryption false
+  309  sudo dconf-editor
+  310  sudo gsettings set org.gnome.Vino require-encryption false
+  311  ifconfig
+  312  ifconfig
+  313  netstat -an |more
+  314  apt install xfce4 xfce4-goodies tightvncserver
+  315  sudo apt install xfce4 xfce4-goodies tightvncserver
+  316  vncserver
+  317  apt install synaptic
+  318  sudo apt install synaptic
+  319  sudo apt update
+  320  sudo apt upgrade
+  321  vncserver -kill :1
+  322  vncserver
+  323  vncserver -kill :1
+  324  mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+  325  nano ~/.vnc/xstartup
+  326  chmod +x ~/.vnc/xstartup
+  327  vncserver
+  328  ifconfig
+  329  netstat -an |more
+  330  cd Downloads/
+  331  ls
+  332  tar -xvzf utserver.tar.gz 
+  333  ls
+  334  cd utorrent-server-alpha-v3_3/
+  335  ls
+  336  ifconfig
+  337  cd Desktop/
+  338  ls
+  339  cd CN/
+  340  ls
+  341  ns bus.tcl 
+  342  ns
+  343  cd Desktop/
+  344  ls
+  345  gedit sai.tcl
+  346  ns sai.tcl 
+  347  gedit sai.tcl
+  348  ns sai.tcl 
+  349  gedit sai.tcl
+  350  ns sai.tcl 
+  351  gedit sai.tcl
+  352  ns sai.tcl 
+  353  gedit sai.tcl
+  354  ns sai.tcl 
+  355  gedit sai.tcl
+  356  ns sai.tcl 
+  357  gedit sai.tcl
+  358  ns sai.tcl 
+  359  gedit sai.tcl
+  360  ns sai.tcl 
+  361  gedit sai.tcl
+  362  ns sai.tcl 
+  363  gedit sai.tcl
+  364  ns sai.tcl 
+  365  gedit sai.tcl
+  366  ns sai.tcl 
+  367  gedit sai.tcl
+  368  ns sai.tcl 
+  369  gedit sai.tcl
+  370  ns sai.tcl 
+  371  gedit sai.tcl
+  372  ns sai.tcl 
+  373  gedit sai.tcl
+  374  ns sai.tcl 
+  375  gedit sai.tcl
+  376  ns sai.tcl 
+  377  gedit sai.tcl
+  378  ns sai.tcl 
+  379  start-all
+  380  start-all.sh
+  381  vncserver
+  382  chmod +x ~/.vnc/xstartup
+  383  vncserver -kill :1
+  384  vncserver
+  385  cd Desktop/
+  386  ls
+  387  ns sai.tcl 
+  388  gedit sai.tcl 
+  389  ns sai.tcl 
+  390  gedit sai.tcl 
+  391  ns sai.tcl 
+  392  gedit sai.tcl 
+  393  ns sai.tcl 
+  394  gedit sai.tcl 
+  395  ns sai.tcl 
+  396  gedit sai.tcl 
+  397  ns sai.tcl 
+  398  gedit sai.tcl 
+  399  ns sai.tcl 
+  400  gedit sai.tcl 
+  401  ns sai.tcl 
+  402  gedit sai.tcl 
+  403  ns sai.tcl 
+  404  gedit sai.tcl 
+  405  ns sai.tcl 
+  406  gedit sai.tcl 
+  407  ns sai.tcl 
+  408  gedit sai.tcl 
+  409  ns sai.tcl 
+  410  gedit sai.tcl 
+  411  ns sai.tcl 
+  412  gedit sai.tcl 
+  413  ns sai.tcl 
+  414  gedit sai.tcl 
+  415  ns sai.tcl 
+  416  gedit sai.tcl 
+  417  ns sai.tcl 
+  418  gedit sai.tcl 
+  419  cd Desktop/
+  420  cd CN/
+  421  ns bus.tcl 
+  422  cd Desktop/
+  423  cd CN/
+  424  ns 30_01_2018_a.tcl 
+  425  ns
+  426  ns 30_01_2018_a.tcl 
+  427  cd Desktop/CN/
+  428  ns 30_01_2018_b.tcl 
+  429  ns 30_01_2018_c.tcl 
+  430  cd Desktop/CN/
+  431  ns 30_01_2018_a.tcl 
+  432  cd Desktop/
+  433  cd CN/
+  434  ls
+  435  ns bus.tcl 
+  436  cd CN/
+  437  ns bus.tr
+  438  ns krish.tr
+  439  ns 30_01_2018_a.tcl 
+  440  ns bus.tcl 
+  441  nam krish.nam krish.tr
+  442  nam krish.nam & krish.tr
+  443  cd Desktop/CN/
+  444  ls
+  445  ns 30_01_2018_a.tcl 
+  446  nam krish.nam & krish.tr
+  447  ns 30_01_2018_a.tcl 
+  448  nam krish.nam & krish.tr
+  449  cd Desktop/CN/
+  450  nam krish.nam & krish.tr
+  451  nam krish.nam krish.tr
+  452  nam krish.nam & krish.tr
+  453  cd Desktop/CN/
+  454  ns testing.tcl 
+  455  nam krish.nam
+  456  help nam
+  457  man nam
+  458  start-all.sh 
+  459  jps
+  460  Desktop/
+  461  cd Desktop/
+  462  mkdir data
+  463  cd data/
+  464  jps >> textfile.txt
+  465  cat textfile.txt 
+  466  cd
+  467  cd /usr/local/
+  468  ls
+  469  cd .
+  470  cd 
+  471  cd
+  472  ls
+  473  cd /opt/
+  474  ls
+  475  cd hadoop-2.7.5/
+  476  bin/hdfs dfs -put /home/krish/Desktop/data/textfile.txt inputfile
+  477  bin/hdfs dfs -put /home/krish/Desktop/data/textfile.txt
+  478  bin/hdfs dfs -mkdir /user
+  479  bin/hdfs dfs -mkdir /user/krish
+  480  bin/hdfs dfs -put /home/krish/Desktop/data/textfile.txt inputfile
+  481  cd etc/ 
+  482  ls
+  483  cd hadoop/
+  484  sudo gedit yarn-site.xml 
+  485  cd 
+  486  cd /opt/hadoop-2.7.5/
+  487  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcount inputfile outputfile
+  488  poweroff
+  489  cd Desktop/
+  490  cd CN/
+  491  ns 30_01_2018_a.tcl 
+  492  ls
+  493  cd Desktop/CN/rsa/
+  494  python3 rsa_encrypt.py 
+  495  python3
+  496  sudo apt-get install python3.6
+  497  sudo apt-get install python3
+  498  ns
+  499  cd Desktop/
+  500  python3
+  501  cd Desktop/
+  502  python3 dis.py 
+  503  cd Desktop/
+  504  python3 dis.py 
+  505  python
+  506  cd Downloads/
+  507  ls
+  508  cd .
+  509  cd 
+  510  ls
+  511  cd Downloads/
+  512  ls
+  513  dpkg -i steam_latest.deb 
+  514  sudo dpkg -i steam_latest.deb  
+  515  sudo apt-get install gdebi-core
+  516  apt-get -f install
+  517  apt-get -f install gdebi-core
+  518  apt-get -f install python-apt
+  519  sudo apt-get -f install python-apt
+  520  sudo apt-get -f install curl
+  521  sudo apt-get install curl
+  522  sudo python-apt
+  523  adduser -u l -p 8
+  524  useradd -u l -p 8
+  525  useradd -u lll -p 8
+  526  useradd lll -p 8
+  527  sudo useradd lll -p 8
+  528  echo $pass
+  529  echo $pass
+  530  ssh code1
+  531  code1
+  532  sudo code1
+  533  su code1
+  534  gedit testing.cpp
+  535  gcc testing.cpp 
+  536  ls
+  537  ./a.out 
+  538  gedit testing.cpp
+  539  gcc testing.cpp 
+  540  ./a.out 
+  541  gedit testing.cpp
+  542  gcc testing.cpp 
+  543  ./a.out 
+  544  gedit testing.cpp
+  545  gcc testing.cpp 
+  546  ./a.out 
+  547  adduser phone
+  548  sudo adduser phone
+  549  gedit ll.sh
+  550  ll.sh
+  551  ls
+  552  chmod 777 ll.sh 
+  553  ls
+  554  ll.sh
+  555  ./ll.sh 
+  556  gedit ll.sh
+  557  ./ll.sh 
+  558  gedit ll.sh
+  559  ./ll.sh 
+  560  gedit ll.sh
+  561  ./ll.sh 
+  562  gedit ll.sh
+  563  ./ll.sh 
+  564  gedit ll.sh
+  565  ./ll.sh 
+  566  gedit ll.sh
+  567  ./ll.sh 
+  568  gedit ll.sh
+  569  ./ll.sh 
+  570  userdel -r code5
+  571  sudo userdel -r code5
+  572  sudo userdel -r code10
+  573  sudo userdel -r phone 
+  574  help adduser
+  575  man adduser
+  576  clear
+  577  adduse -u phone -p uu
+  578  adduser -u phone -p uu
+  579  sudo adduser -m phone -p uu
+  580  sudo useradd -m phone -p uu
+  581  sudo userdel -r phone 
+  582  gedit ll.sh
+  583  ./ll.sh 
+  584  gedit ll.sh
+  585  ./ll.sh 
+  586  sudo userdel -r code5 
+  587  gedit ll.sh
+  588  ./ll.sh 
+  589  gedit ll.sh
+  590  ./ll.sh 
+  591  gedit ll.sh
+  592  ./ll.sh 
+  593  gedit ll.sh
+  594  ./ll.sh 
+  595  gedit ll.sh
+  596  ./ll.sh 
+  597  gedit ll.sh
+  598  sudo userdel -r code5 
+  599  gedit ll.sh
+  600  ./ll.sh 
+  601  sudo userdel -r code5 
+  602  sudo userdel -r code10
+  603  gedit ll.sh
+  604  ./ll.sh 
+  605  sudo userdel -r code5 
+  606  sudo userdel -r code10
+  607  gedit ll.sh
+  608  ./ll.sh 
+  609  gedit ll.sh
+  610  ./ll.sh 
+  611  sudo userdel -r code5 
+  612  sudo userdel -r code10 
+  613  ./ll.sh 
+  614  sudo userdel -r code5 
+  615  gedit ll.sh
+  616  ./ll.sh 
+  617  sudo userdel -r code5 
+  618  gedit ll.sh
+  619  ./ll.sh 
+  620  gedit ll.sh
+  621  ./ll.sh 
+  622  gedit ll.sh
+  623  ./ll.sh 
+  624  gedit ll.sh
+  625  ./ll.sh 
+  626  sudo userdel -r code5 
+  627  gedit ll.sh
+  628  ./ll.sh 
+  629  gedit ll.sh
+  630  sudo userdel -r lll 
+  631  gedit ll.sh
+  632  ./ll.sh 
+  633  gedit ll.sh
+  634  ./ll.sh 
+  635  7
+  636  7
+  637  gedit ll.sh
+  638  sudo userdel -r code5
+  639  sudo userdel -r code10
+  640  sudo userdel -r code15
+  641  sudo userdel -r code20
+  642  sudo userdel -r code25
+  643  sudo userdel -r code30
+  644  sudo userdel -r code40
+  645  sudo userdel -r code50
+  646  sudo userdel -r code55
+  647  sudo userdel -r code45
+  648  sudo userdel -r code35
+  649  sudo userdel -r code60
+  650  sudo userdel -r code65
+  651  sudo userdel -r code75
+  652  sudo userdel -r code80
+  653  sudo userdel -r code85
+  654  sudo userdel -r code90
+  655  sudo userdel -r code95
+  656  sudo userdel -r code100
+  657  sudo userdel -r code70
+  658  ./ll.sh 
+  659  gedit ll.sh
+  660  ./ll.sh 
+  661  gedit ll.sh
+  662  sudo userdel -r code1
+  663  gedit ll.sh
+  664  ./ll.sh 
+  665  sudo userdel -r code1
+  666  sudo userdel code1
+  667  ssh code1
+  668  ssh code1@192.168.43.186
+  669  code1
+  670  su code1
+  671  ns
+  672  su code1
+  673  sudo usermod -aG sudo,adm code1
+  674  su code1
+  675  ns
+  676  ssh code1@sudo usermod -aG sudo,adm fsolano
+  677  ssh code1@192.168.43.186
+  678  userdel -r code1
+  679  sudo userdel -r code1
+  680  sudo userdel code1
+  681  sudo userdel -f code1
+  682  guest Session
+  683  Guest Session
+  684  guest
+  685  sudo usermod -aG sudo,adm fsolano
+  686  sudo usermod -aG sudo,adm code1
+  687  gcc
+  688  g++
+  689  c++
+  690  cc
+  691  /opt/pycharm/bin/pycharm.sh
+  692  cd /opt/pycharm-community-2017.3.2/bin/
+  693  ls
+  694  ./pycharm.sh 
+  695  ls
+  696  ./ll.sh 
+  697  sudo adduser code1 sudo
+  698  su - coe1
+  699  su - code1
+  700  sudo userdel -f code1
+  701  ./ll.sh 
+  702  su - code1
+  703  vncpasswd
+  704  nano ~/.vnc/xstartup
+  705  service vncserver restart
+  706  vncserver restart
+  707  vncserver -kill
+  708  vncserver
+  709  nano ~/.vnc/xstartup
+  710  vncpasswd
+  711  $ echo MYVNCPASSWORD | vncpasswd -f > ~/.secret/passvnc
+  712  vncserver
+  713  vncserver -kill :1
+  714  vncserver -kill :2
+  715  mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+  716  vncserver
+  717  nano /home/krish/.vnc/xstartup
+  718  nano HOME/.vnc/passwd 
+  719  vncpassword -f
+  720  vncpasswd -f
+  721  vncpasswd
+  722  nano HOME/.vnc/passwd 
+  723  /HOME
+  724  cd HOME
+  725  cd home
+  726  ls
+  727  cd ..
+  728  cd .vnc
+  729  cd krish/.vnc/
+  730  ls
+  731  gedit passwd 
+  732  vncserver -kill 1
+  733  vncserver -kill :1
+  734  vncserver
+  735  gedit krish/.vnc/passwd
+  736  cd /home/.vnc/
+  737  cd /home/krish/.vnc/
+  738  ls
+  739  gedit krish-INVALID\:2.log 
+  740  gedit passwd 
+  741  vncpasswd -f 95502248
+  742  vncpasswd -f
+  743  vncpasswd
+  744  vncserver -kill :1
+  745  vncserver -kill :2
+  746  vncserver
+  747  cd /home/krish/.vnc/
+  748  gedit passwd 
+  749  ls
+  750  gedit passwd 
+  751  echo MYVNCPASSWORD | vncpasswd -f > /home/krish/l
+  752  vncserver
+  753  vncserver -kill :1
+  754  vncserver -kill :2
+  755  vncpasswd
+  756  echo MYVNCPASSWORD | vncpasswd -f > /home/krish/l
+  757  echo MYVNC | vncpasswd -f > /home/krish/l
+  758  vncserver
+  759  nano passwd 
+  760  vncpasswd -f 12345678
+  761  vncpasswd -t 12345678
+  762  vncpasswd -f 
+  763  vncpasswd
+  764  cd /home/krish/.vnc/
+  765  nano passwd 
+  766  vncserver -kill :
+  767  vncserver -kill :1
+  768  vncpasswd -f 
+  769  vncpasswd
+  770  vncserver
+  771  cd /home/krish/.vnc/
+  772  gedit passwd 
+  773  cat passwd 
+  774  vncserver -kill :1
+  775  vncpasswd
+  776  gedit passwd 
+  777  cat passwd 
+  778  vncpasswd
+  779  apt-get purge realvnc-vnc-server realvnc-vnc-viewer
+  780  sudo apt-get purge realvnc-vnc-server realvnc-vnc-viewer
+  781  vncserver
+  782  vncserver -kill :1
+  783  netstat -an |more
+  784  sudo apt-get install dconf-tools
+  785  sudo apt-get install xfce4 xfce4-goodies tightvncserver
+  786  vncserver -kill :1
+  787  mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+  788  nano ~/.vnc/xstartup
+  789  gedit ~/.vnc/xstartup
+  790  sudo chmod +x ~/.vnc/xstartup
+  791  sudo nano /etc/init.d/vncserver
+  792  sudo chmod +x /etc/init.d/vncserver
+  793  sudo service vncserver start
+  794  sudo service vncserver
+  795  vncserver
+  796  ls
+  797  vi passwd 
+  798  vncserver -kill :1
+  799  cd /home/krish/.vnc/
+  800  ls
+  801  rm -r *.*
+  802  l
+  803  ls
+  804  rm passwd 
+  805  ls
+  806  rm xstartup 
+  807  vncserver
+  808  ls
+  809  vi passwd 
+  810  cd /home/krish/.vnc/
+  811  ls
+  812  vi xstartup 
+  813  no xstartup 
+  814  nano xstartup 
+  815  gedit xstartup 
+  816  vncserver -kill :1
+  817  ns
+  818  setenv DISPLAY aran:0.0 
+  819  netenv DISPLAY aran:0.0 
+  820  vncserver
+  821  nam
+  822  ns
+  823  cd /home/krish/.vnc/
+  824  chmod 755 /home/user/.vnc/xstartup
+  825  sudo chmod 755 /home/user/.vnc/xstartup
+  826  ls
+  827  chmod 755 xstartup 
+  828  vncserver stop
+  829  vncserver -kill:1
+  830  vncserver -kill :1
+  831  vncserver
+  832  #!/bin/sh
+  833  unset SESSION_MANAGER
+  834  unset DBUS_SESSION_BUS_ADDRESS
+  835  # exec /etc/X11/xinit/xinitrc
+  836  gnome-session --session=ubuntu-2d &
+  837  [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+  838  [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+  839  xsetroot --solid grey
+  840  vncconfig --iconic &
+  841  vncserver -kill :1
+  842  gedit ~/.vnc/xstartup
+  843  gnome-session --session=gnome-classic &
+  844  vncserver -geometry 1024x768 -depth 16
+  845  vncserver -geometry 1024x768 -depth 32
+  846  vncserver -kill :1
+  847  sudo ufw status
+  848  sudo ufw allow 5901
+  849  vi ~/.bash_profile
+  850  gedit ~/.bash_profile
+  851  vncserver -geometry 1024x768 -depth 16
+  852  sudo chmod +x ~/.vnc/xstartup
+  853  vncserver -geometry 1024x768 -depth 16
+  854  mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+  855  sudo chmod +x ~/.vnc/xstartup.bak 
+  856  vncserver -kill :2
+  857  vncserver -kill :1
+  858  vncserver
+  859  ls
+  860  dpkg -i teamviewer_13.0.9865_amd64.deb 
+  861  sudo dpkg -i teamviewer_13.0.9865_amd64.deb 
+  862  teamviewer 
+  863  sudo netstat -ntap | grep teamviewer
+  864  teamviewer 
+  865  sudo dpkg teamviewer_13.0.9865_amd64.deb 
+  866  sudo dpkg -i teamviewer_13.0.9865_amd64.deb 
+  867  cd Downloads/
+  868  sudo dpkg teamviewer_13.0.9865_amd64.deb 
+  869  sudo dpkg -i teamviewer_13.0.9865_amd64.deb 
+  870  sudo apt-get purge teamviewer
+  871  yum remove teamviewer
+  872  zypper remove teamviewer
+  873  sudo apt-get purge teamviewer
+  874  teamviewer 
+  875  teamviewer setup
+  876  sudo teamviewer --daemon enable
+  877  teamviewer setup
+  878  sudo teamviewer setup
+  879  teamviewer setup
+  880  sudo teamviewer 
+  881  teamviewer 
+  882  gedit tr_to_tcl
+  883  gedit tr_to_tcl.py
+  884  python3 tr_to_tcl.py
+  885  gedit tr_to_tcl.py
+  886  python3 tr_to_tcl.py
+  887  gedit tr_to_tcl.py
+  888  python3 tr_to_tcl.py
+  889  gedit tr_to_tcl.py
+  890  python3 tr_to_tcl.py
+  891  python3 tr_to_tcl.py 
+  892  gedit tr_to_tcl.py 
+  893  python3 tr_to_tcl.py 
+  894  ns krish.tcl 
+  895  python3 tr_to_tcl.py 
+  896  ns krish.tcl 
+  897  python3 tr_to_tcl.py 
+  898  gedit dva.cpp
+  899  g++ dva.cpp 
+  900  ./a.out 
+  901  cd Desktop/CN/
+  902  python3 tr_to_tcl.py 
+  903  ns krish.tcl 
+  904  cp tr_to_tcl.py /home/code1/
+  905  sudo cp tr_to_tcl.py /home/code1/
+  906  sudo cp krish.tr /home/code1/
+  907  ./bashrc
+  908  gedit /.bashrc
+  909  chmod 777 ~/.bashrc
+  910  sudo cp ~/.bashrc /etc/default/
+  911  cd /etc/default/
+  912  ls -la
+  913  gedit ~/.bashrc
+  914  ssh code1@192.168.0.115
+  915  source ~/.bashrc
+  916  sudo ufw status
+  917  sudo userdel -r code1
+  918  sudo userdel -f code1
+  919  ls
+  920  ./ll.sh 
+  921  sudo userdel -r code1
+  922  sudo userdel -fr code1
+  923  ./ll.sh 
+  924  sudo userdel -fr code1
+  925  sudo ~/.bashrc /etc/skel/
+  926  ./ll.sh 
+  927  sudo userdel -fr code1
+  928  ./ll.sh 
+  929  sudo userdel -fr code1
+  930  ./ll.sh 
+  931  sudo userdel -fr code1
+  932  sudo ./ll.sh 
+  933  cd Desktop/CN/
+  934  python3 tr_to_tcl.py 
+  935  ns krish.tcl 
+  936  cp tr_to_tcl.py /home/code1/
+  937  sudo cp tr_to_tcl.py /home/code1/
+  938  gedit cell.tcl
+  939  ns cell.tcl 
+  940  gedit cell.tcl
+  941  ns cell.tcl 
+  942  gedit cell.tcl
+  943  ns cell.tcl 
+  944  ns
+  945  ns wireles.tcl 
+  946  python3 tr_to_tcl.py 
+  947  cd Desktop/CN/
+  948  ns cell.tcl 
+  949  ns wireles.tcl 
+  950  cd Desktop/CN/
+  951  ns wireles.tcl 
+  952  gedit rsa.java
+  953  javac rsa.java 
+  954  gedit rsa.java
+  955  mv rsa.java arp.java
+  956  javac arp.java 
+  957  gedit arp.java 
+  958  javac arp.java 
+  959  java arp 3
+  960  java arp
+  961  javac arp.java 
+  962  gedit arp.java 
+  963  java arp
+  964  pwd
+  965  cd /home/krish/Desktop/
+  966  ls
+  967  chmod 777 hadoop-core-1.1.2.jar 
+  968  ls
+  969  pwd
+  970  source ~/.bashrc
+  971  cd Desktop/
+  972  gedit MaxTemperatureMapper.java
+  973  javac MaxTemperatureMapper
+  974  javac MaxTemperatureMapper.java
+  975  sudo gedit ~/.bashrc
+  976  source ~/.bashrc
+  977  javac MaxTemperatureMapper.java
+  978  sudo gedit ~/.bashrc
+  979  source ~/.bashrc
+  980  javac MaxTemperatureMapper.java
+  981  sudo gedit ~/.bashrc
+  982  start-all.sh 
+  983  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcount inputfile outputfile
+  984  cd /usr/local/
+  985  cd /opt/hadoop-2.7.5/
+  986  bin/hdfs dfs -put /home/krish/Desktop/data/textfile.txt inputfile
+  987  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcount inputfile outputfile
+  988  start-all.sh 
+  989  jsp
+  990  jps
+  991  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcount inputfile outputfile
+  992  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcoun
+  993  cd Desktop/
+  994  javac MaxTemperatureMapper.java 
+  995  cd hadoop-core-1.1.2/
+  996  javac MaxTemperatureMapper.java 
+  997  gedit MaxTemperatureReducer.java
+  998  javac MaxTemperatureReducer.java 
+  999  gedit MaxTemperature.java
+ 1000  javac MaxTemperature.java 
+ 1001  echo Main-Class: Craps >manifest.txt
+ 1002  jar cvfm maxtemp.jar manifest.txt *.class
+ 1003  maxtemp.jar
+ 1004  ls
+ 1005  jar cvfm maxtemp.jar manifest.txt *.class
+ 1006  ls
+ 1007  chmod maxtemp.jar 
+ 1008  chmod 777 maxtemp.jar 
+ 1009  ls
+ 1010  bin/hdfs dfs -put /home/krish/Desktop/data/2018.csv temparature_input
+ 1011  cd /opt/hadoop-2.7.5/
+ 1012  bin/hdfs dfs -put /home/krish/Desktop/data/2018.csv temparature_input
+ 1013  start-all.sh 
+ 1014  bin/hadoop jar /home/krish/Desktop/hadoop-core-1.1.2/maxtemp.jar MaxTemperature temparature_input maxtemp
+ 1015  echo Main-Class: MaxTemperature >manifest.txt
+ 1016  jar cvfm maxtemp.jar manifest.txt *.class
+ 1017  cd ..
+ 1018  cd /home/krish/Desktop/
+ 1019  cd hadoop-core-1.1.2/
+ 1020  jar cvfm maxtemp.jar manifest.txt *.class
+ 1021  cd /opt/hadoop-2.7.5/
+ 1022  bin/hadoop jar /home/krish/Desktop/hadoop-core-1.1.2/maxtemp.jar MaxTemperature temparature_input maxtemp
+ 1023  cd /home/krish/Desktop/hadoop-core-1.1.2/
+ 1024  echo Main-Class: MaxTemperature >manifest.txt
+ 1025  jar cvfm maxtemp.jar manifest.txt *.class
+ 1026  cd /opt/hadoop-2.7.5/
+ 1027  bin/hadoop jar /home/krish/Desktop/hadoop-core-1.1.2/maxtemp.jar MaxTemperature temparature_input maxtemp
+ 1028  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.5.jar wordcount inputfile ou
+ 1029  cd /home/krish/Desktop/hadoop-core-1.1.2/
+ 1030  javac MaxTemperature.java 
+ 1031  echo Main-Class: MaxTemperature >manifest.txt
+ 1032  jar cvfm maxtemp.jar manifest.txt *.class
+ 1033  chmod 777 maxtemp.jar 
+ 1034  cd /opt/hadoop-2.7.5/
+ 1035  bin/hadoop jar /home/krish/Desktop/hadoop-core-1.1.2/maxtemp.jar MaxTemperature temparature_input maxtemp
+ 1036  bin/hadoop jar /home/krish/Desktop/hadoop-core-1.1.2/maxtemp.jar temparature_input maxtemp
+ 1037  shutdown -t
+ 1038  shutdown -i
+ 1039  cd Desktop/
+ 1040  history > hist.txt
